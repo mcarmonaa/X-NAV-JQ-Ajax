@@ -3,8 +3,8 @@ $(document).ready(function() {
 
   $('#myInput').click(function(event) {
     $.ajax({
-        // url: 'https://mcarmonaa.github.io/X-NAV-JQ-Ajax/embedded.html',
-        url: '/embedded.html',
+        url: 'https://mcarmonaa.github.io/X-NAV-JQ-Ajax/embedded.html',
+        // url: '/embedded.html',
       })
       .done(function(data) {
         $('#myDiv').html(data);
